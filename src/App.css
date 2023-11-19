@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+ 
+ 
+}
+.calcultor-grid{
+  display: grid;
+  margin-top: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(4,6rem);
+  grid-template-rows: minmax(7rem,auto) repeat(5,6rem);
+}
+.calcultor-grid > button{
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255,255,255,.75);
+}
+
+.calcultor-grid > button:hover,
+.calcultor-grid > button:focus{
+  background-color: rgba(255,255,255,.9);
+}
+.span-two{
+  grid-column: span 2;
+}
+.text{
+  background-color: cadetblue;
+  border: 0px;
+  width: 365px;
+  height: 100px;
+  color: aliceblue;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+}
+.outoput{
+  grid-column:  1/-1;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: .75rem;
+   word-wrap: break-word;
+  word-break: break-all; 
+ }
+.outoput .previous-operand{
+  color: rgba(255,255,255,.75);
+  font-size: 1.5rem;
+}
+.outoput .current-operand{
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+} 
+.slider-container {
+  text-align: center;
+  padding: 20px;
+}
+
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.slider-image {
+ width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+
+.slider-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.slider-button.next {
+  background-color: #28a745;
+}
+
+
+.slider-button.prev {
+  background-color: #dc3545;
+}
