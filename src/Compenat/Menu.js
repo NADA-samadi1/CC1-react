@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function Menu() {
   return (
-    <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: 'gray' }} className='fixed-top'>
+    <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: 'gray' }} >
             <Container>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
