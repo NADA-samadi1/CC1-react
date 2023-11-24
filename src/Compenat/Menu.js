@@ -1,14 +1,16 @@
-import React from 'react';
+
+import  React,{ useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-
+import { ThemeContext } from './ThemeProvider';
 
 
 
 export default function Menu() {
+    const { toggleTheme } = useContext(ThemeContext);
   return (
     <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: 'gray' }} >
             <Container>
@@ -30,9 +32,17 @@ export default function Menu() {
                         <Nav.Link as={Link} to="/LangContext" className="nav-link font-weight-bold">
                             Langue
                         </Nav.Link>
+                    
+                            
+                        
                         <Nav.Link as={Link} to="*" className="nav-link font-weight-bold">
                             Autres
                         </Nav.Link>
+                        <Nav>
+            <Button variant="outline-light" onClick={toggleTheme}>
+              Dark
+            </Button>
+          </Nav>
                     </Nav>
                     
                 </Navbar.Collapse>

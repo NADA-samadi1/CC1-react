@@ -9,12 +9,14 @@ import LangContext from './Compenat/LangContext';
 import Icones from './Compenat/Icones';
 import Complang2 from './Compenat/Complang2';
 import { Route, Routes } from 'react-router-dom';
+import ThemeProvider from './Compenat/ThemeProvider';
+import Test from './Compenat/Test';
 
 
 
 function App() {
   return (
-   
+   <ThemeProvider>
      <div>
       <h1><Menu/></h1> <br />
       <Routes>
@@ -32,6 +34,7 @@ function App() {
     </LangContext>
   }
 />
+<Route path='/dark' element={<Test/>}/>
       <Route path='*' element={<h1 className='h1' style={{textAlign:'center'}}>404</h1>}/>
       
       
@@ -39,6 +42,7 @@ function App() {
         
       </Routes>
      </div>
+     </ThemeProvider>
   )
 }
 

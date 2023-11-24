@@ -141,3 +141,20 @@ h1 {
 .slider-button.prev {
   background-color: #dc3545;
 }
+
+
+.botona {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff; 
+  color: #ffffff; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 40%;
+}
+
+.botona:hover {
+  background-color: #0056b3; 
+}
+
