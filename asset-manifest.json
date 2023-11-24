@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CC1-react/static/css/main.b6bd23b6.css",
-    "main.js": "/CC1-react/static/js/main.e412a7a8.js",
+    "main.css": "/CC1-react/static/css/main.9efac614.css",
+    "main.js": "/CC1-react/static/js/main.296ef0af.js",
     "static/media/img4.jpg": "/CC1-react/static/media/img4.5fe8923d800835cfd855.jpg",
     "static/media/img2.jpg": "/CC1-react/static/media/img2.d09a458356f768270e64.jpg",
     "static/media/img3.jpg": "/CC1-react/static/media/img3.7a85129876a54ae3e2c4.jpg",
@@ -11,11 +11,11 @@
     "static/media/img3.avif": "/CC1-react/static/media/img3.ce9d11b97e6746b369c5.avif",
     "static/media/logo.svg": "/CC1-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/CC1-react/index.html",
-    "main.b6bd23b6.css.map": "/CC1-react/static/css/main.b6bd23b6.css.map",
-    "main.e412a7a8.js.map": "/CC1-react/static/js/main.e412a7a8.js.map"
+    "main.9efac614.css.map": "/CC1-react/static/css/main.9efac614.css.map",
+    "main.296ef0af.js.map": "/CC1-react/static/js/main.296ef0af.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6bd23b6.css",
-    "static/js/main.e412a7a8.js"
+    "static/css/main.9efac614.css",
+    "static/js/main.296ef0af.js"
   ]
 }
